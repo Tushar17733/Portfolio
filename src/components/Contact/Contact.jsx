@@ -63,11 +63,8 @@ const Contact = () => {
                 <i className="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>
-                    <a href="mailto:poriyatushar1@gmail.com">poriyatushar1@gmail.com</a>
-                  </p>
+                  <p>poriyatushar1@gmail.com</p>
                 </div>
-
               </div>
               <iframe
                 title="Tushar's Home"
