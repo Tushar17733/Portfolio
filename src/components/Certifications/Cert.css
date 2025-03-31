@@ -37,6 +37,7 @@
     border-radius: 4px;
     font-size: 14px;
     width: auto;
+    margin-top: 20px;
   }
   
   /* 📌 Responsive: Wrap for Screens Below 768px */
@@ -64,6 +65,7 @@
     .cert-card {
         flex: 0 1 calc(97% - 10px);
     }
+    
 
   }
   

@@ -34,7 +34,7 @@ const About = () => (
             {[
               { label: "Degree", value: "Bachelor of Technology" },
               { label: "Email", value: "poriyatushar1@gmail.com" },
-              { label: "Website", value: "https://samarjit.vercel.app" },
+              { label: "Website", value: "https://portfolio-m4vw.vercel.app/" },
               { label: "Address", value: "Surat ,Gujarat, India" },
             ].map((item, index) => (
               <div className="col-lg-6" key={index}>

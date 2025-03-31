@@ -52,7 +52,7 @@ const Contact = () => {
                 <i className="bi bi-globe flex-shrink-0"></i>
                 <div>
                   <h3>Website</h3>
-                  <p>https://samarjit.vercel.app</p>
+                  <p>https://portfolio-m4vw.vercel.app/</p>
                 </div>
               </div>
               <div
@@ -63,8 +63,11 @@ const Contact = () => {
                 <i className="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>poriyatushar1@gmail.com</p>
+                  <p>
+                    <a href="mailto:poriyatushar1@gmail.com">poriyatushar1@gmail.com</a>
+                  </p>
                 </div>
+
               </div>
               <iframe
                 title="Tushar's Home"
