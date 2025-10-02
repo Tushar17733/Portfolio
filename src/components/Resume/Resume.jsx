@@ -50,7 +50,7 @@ const Resume = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <a
-          href="https://drive.google.com/uc?id=1MxVq_qUYmoffamsQhN71fyrpwpDnpWdl&export=download"        
+          href= "https://drive.google.com/file/d/1X3U-yDojj7P6eQncry7cAGFjzLxWHBV7/view?usp=sharing"      
           className="icon resume"
           target="_blank"
           download="Resume"
@@ -60,7 +60,7 @@ const Resume = () => {
         </a>
 
         <p className="justify">
-        I am a passionate and dedicated final-year CS student specializing in web development. With a strong foundation in front-end technologies, responsive design, and user experience, I am eager to apply my skills to real-world projects. I thrive on building interactive and visually appealing web applications and look forward to collaborating with industry professionals to enhance my expertise and contribute to innovative digital solutions.
+        I am a passionate and dedicated fresher specializing in web development. With a strong foundation in front-end technologies, responsive design, and user experience, I am eager to apply my skills to real-world projects. I thrive on building interactive and visually appealing web applications and look forward to collaborating with industry professionals to enhance my expertise and contribute to innovative digital solutions.
 
         </p>
       </div>

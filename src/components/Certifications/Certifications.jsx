@@ -10,6 +10,27 @@ import  "./Cert.css"
 function Certifications() {
   const certifications = [
     {
+      id: 3,
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759426202/frontend_eqdsif.png",
+      link: "https://www.udemy.com/certificate/UC-e9e409ad-de3b-4543-b3c3-5b7dd3a4b29d/",
+    },
+    {
+      id: 3,
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759426203/mern_blog_ysyub2.png",
+      link: "https://www.udemy.com/certificate/UC-c0394e3f-80c9-42c8-afe7-40df36cd3c23/",
+    },
+    {
+      id: 3,
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759426202/java_wfvw6v.png",
+      link: "https://www.udemy.com/certificate/UC-38ad4f9b-eed1-47d7-88f8-c71105e597b8/"
+    },
+    {
+      id: 3,
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759426203/nptel_k9zi7q.png",
+      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs56/Course/NPTEL25CS56S55760021504402221.pdf"
+    },
+
+    {
       id: 1,
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743405108/Screenshot_2025-03-31_124136_hcupda.png", 
       link: "https://coursera.org/verify/C9TNGT2JUNQL",
@@ -19,11 +40,8 @@ function Certifications() {
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743405017/python_x8bpcj.png",
       link: "https://www.coursera.org/account/accomplishments/specialization/BHLQ5H3JCPQR",
     },
-    {
-      id: 3,
-      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743405017/internpe_gcxx6q.png",
-      link: "https://www.linkedin.com/posts/tushar-poriya-a91a78298_internpe-activity-7218426312959397889-bmyi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgPqw0BE09euAGhmyG-cLBQjoZciPTtTh0",
-    },
+    
+    
   ];
 
 

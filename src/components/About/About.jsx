@@ -26,9 +26,9 @@ const About = () => (
           />
         </div>
         <div className="col-lg-8 content">
-          <h2>Web Developer</h2>
+          <h2>Full Stack Developer</h2>
           <p className="py-3 justify new2">
-            Being a Web Developer means transforming creative concepts into interactive, functional websites. I find immense satisfaction in building the bridge between design and technology.
+            Being a Full Stack Developer means transforming creative concepts into interactive, functional websites. I find immense satisfaction in building the bridge between design and technology.
           </p>
           <div className="row">
             {[

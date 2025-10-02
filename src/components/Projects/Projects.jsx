@@ -43,6 +43,13 @@ const Portfolio = () => {
   }, []);
 
   const projects = [
+    {
+      title: "JobHunt",
+      description: "Developed a full-stack MERN job portal Web Appliation,enabling recruiters to post jobs and users to browse and apply seamlessly.Implemented JWT authentication,REST APIs on Nodejs",
+      demoLink: "https://jobportal-y1np.onrender.com/",
+      codeLink: "https://github.com/Tushar17733/JobPortal",
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759425456/Screenshot_2025-10-02_224431_z5svcp.png"
+    },
    
     {
       title: "Cara Clothing",
@@ -72,13 +79,7 @@ const Portfolio = () => {
       codeLink: "https://github.com/Tushar17733/Sidcup-family-Golf",
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743385494/sidcup_tqbhim.png"
     },
-    {
-      title: "Connect 4 game",
-      description: "Developd a Connect 4 game using HTML, CSS, and JavaScript, where two players take turns dropping discs into a grid and uses alerts to announce the winner.",
-      demoLink: "https://connect-4-delta.vercel.app/",
-      codeLink: "https://github.com/Tushar17733/Connect-4",
-      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743386231/Screenshot_2025-03-31_072659_kzswtg.png"
-    },
+    
     {
       title: "Sundown-Studio Clone",
       description: "Developed a responsive e-commerce website with product listings, cart functionality, and a checkout page using HTML, CSS, and JavaScript.",
