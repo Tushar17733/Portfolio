@@ -36,7 +36,7 @@ const Portfolio = () => {
     });
     return () => {
       filters.forEach((filter) =>
-        filter.removeEventListener("click", () => {})
+        filter.removeEventListener("click", () => { })
       );
       if (iso) iso.destroy();
     };
@@ -50,7 +50,21 @@ const Portfolio = () => {
       codeLink: "https://github.com/Tushar17733/JobPortal",
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1759425456/Screenshot_2025-10-02_224431_z5svcp.png"
     },
-   
+    {
+      title: "ResumeXpert",
+      description: "Developed a full-stack MERN resume builder Web Application,enabling users to create and download professional resumes.Implemented JWT auth,Gemini API for AI integration.",
+      demoLink: "https://resumexpert-d8kk.onrender.com",
+      codeLink: "https://github.com/Tushar17733/AI-Powered-Resume-Builder",
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1763314085/Screenshot_2025-11-16_225448_mdp6ep.png"
+    },
+    {
+      title: "Ayurlife",
+      description: "Developed a MERN Web Application,helping users discover their unique constitution (Prakriti) and receive customized health recommendations for optimal balance and lifestyle.",
+      demoLink: "https://v0-ayur-life-wellness-app.vercel.app/",
+      codeLink: "https://github.com/Tushar17733/Ayurlife",
+      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1763314544/Screenshot_2025-11-16_230221_ptbc8l.png"
+    },
+
     {
       title: "Cara Clothing",
       description: "Developed a responsive E-commerce website with product categories, cart functionality, and a checkout page using Reactjs.Integrated authentication using Clerk. ",
@@ -65,13 +79,7 @@ const Portfolio = () => {
       codeLink: "https://github.com/Tushar17733/Niora",
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743273352/Screenshot_2025-03-30_000548_ble9la.png"
     },
-    {
-      title: "YRF Clone",
-      description: "Designed Yash Raj Films clone using HTML, CSS, and JS. Showcased movies, trailers, and company details with a visually appealing and responsive layout.",
-      demoLink: "https://yashrajfilms-pied.vercel.app/",
-      codeLink: "https://github.com/Tushar17733/YRF-Website",
-      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743273818/Screenshot_2025-03-30_001333_k0degi.png"
-    },
+
     {
       title: "Sidcup Family Golf",
       description: "Developed a animated landing  website of Sidcup Family Golf using HTML, CSS, GSAP and JavaScript.",
@@ -79,17 +87,11 @@ const Portfolio = () => {
       codeLink: "https://github.com/Tushar17733/Sidcup-family-Golf",
       image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743385494/sidcup_tqbhim.png"
     },
-    
-    {
-      title: "Sundown-Studio Clone",
-      description: "Developed a responsive e-commerce website with product listings, cart functionality, and a checkout page using HTML, CSS, and JavaScript.",
-      demoLink: "https://sundown-studio-blush.vercel.app/",
-      codeLink: "https://github.com/Tushar17733/Sundown-Studio-Clone",
-      image: "https://res.cloudinary.com/dlty18sqr/image/upload/v1743385493/sundwn_pridxb.png"
-    },
-    
+
+
+
   ];
-  
+
 
   return (
     <section id="projects" className="portfolio section light-background">
@@ -104,18 +106,18 @@ const Portfolio = () => {
       </div>
 
       <div className="projects-container">
-      {projects.map((project, index) => (
-        <div className="project-card" key={index}>
-          <img src={project.image} alt={project.title} className="project-image"/>
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-          <div className="buttons">
-            <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn demo-btn">Demo</a>
-            <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="btn code-btn">Code</a>
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <img src={project.image} alt={project.title} className="project-image" />
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <div className="buttons">
+              <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn demo-btn">Demo</a>
+              <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="btn code-btn">Code</a>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
 
 
       {/* <div className="container">
