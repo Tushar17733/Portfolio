@@ -21,47 +21,52 @@ const Tech = () => {
       },
       {
         id: "tech4",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        alt: "TypeScript",
+      },
+      {
+        id: "tech5",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         alt: "Tailwind CSS",
       },
       {
-        id: "tech5",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-        alt: "Bootstrap",
+        id: "tech6",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+        alt: "Angular",
       },
       {
-        id: "tech6",
+        id: "tech7",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
         alt: "React",
       },
       {
-        id: "tech7",
+        id: "tech8",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
         alt: "Material UI",
       },
       {
-        id: "tech8",
+        id: "tech9",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
         alt: "Git",
       },
       
       {
-        id: "tech9",
+        id: "tech10",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
         alt: "Node.js",
       },
       {
-        id: "tech10",
+        id: "tech11",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
         alt: "Express.js",
       },
       {
-        id: "tech11",
+        id: "tech12",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
         alt: "MySQL",
       },
       {
-        id: "tech12",
+        id: "tech13",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
         alt: "MongoDB",
       },

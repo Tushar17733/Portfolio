@@ -8,9 +8,9 @@ const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
     const typed = new Typed(typedRef.current, {
-      strings: ["Full Stack Developer", "MERN Developer"],
+      strings: ["Full Stack Developer"],
       typeSpeed: 25,
-      backSpeed: 25,
+      backSpeed: 15,
       loop: true,
     });
     return () => typed.destroy();
@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div id="home" className="hero section dark-background">
       <img
-        src="https://res.cloudinary.com/dlty18sqr/image/upload/v1749113867/bg_zq9efn_wfqtni.jpg"
+        src="https://res.cloudinary.com/dlty18sqr/image/upload/v1783236954/bgnew_syk0wz.jpg"
         alt="Background"
         aria-hidden="true"
         data-aos="fade-in"
